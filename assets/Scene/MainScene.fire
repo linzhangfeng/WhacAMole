@@ -247,8 +247,14 @@
       "__id__": 4
     },
     "_enabled": true,
-    "_defaultClip": null,
-    "_clips": [],
+    "_defaultClip": {
+      "__uuid__": "d215d1bf-a802-4ca9-a0e3-ecd1fd0993cb"
+    },
+    "_clips": [
+      {
+        "__uuid__": "d215d1bf-a802-4ca9-a0e3-ecd1fd0993cb"
+      }
+    ],
     "playOnLoad": false
   },
   {
