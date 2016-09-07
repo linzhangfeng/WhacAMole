@@ -1,9 +1,9 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "mouse",
+  "_name": "mouse_dianji",
   "_objFlags": 0,
   "_rawFiles": null,
-  "_duration": 0.6,
+  "_duration": 0.2,
   "sample": 10,
   "speed": 1,
   "wrapMode": 2,
@@ -14,20 +14,17 @@
           {
             "frame": 0,
             "value": {
-              "__uuid__": "a6bdae04-5d4e-4d44-b196-aa68f0126429"
+              "__uuid__": "b2e45a7d-8f4a-496b-9383-925a13eda7d5"
             }
           },
           {
-            "frame": 0.5,
+            "frame": 0.1,
             "value": {
-              "__uuid__": "ff9a1b43-a672-4370-b59b-8bbb75ea8277"
+              "__uuid__": "c3e6063d-73a1-4bc2-ae65-744c20d039d6"
             }
           }
         ]
       }
-    },
-    "props": {
-      "position": []
     }
   },
   "events": []

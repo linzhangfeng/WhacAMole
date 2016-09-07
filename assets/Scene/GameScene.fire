@@ -36,7 +36,7 @@
         "__id__": 2
       },
       {
-        "__id__": 8
+        "__id__": 10
       }
     ],
     "_localZOrder": 0,
@@ -99,7 +99,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 7
+        "__id__": 9
       }
     ],
     "_prefab": null,
@@ -206,17 +206,17 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 305,
-      "height": 368
+      "width": 218,
+      "height": 154
     },
     "_children": [],
     "_rotationX": 0,
     "_rotationY": 0,
-    "_scaleX": 0.4,
-    "_scaleY": 0.4,
+    "_scaleX": 0.5,
+    "_scaleY": 0.5,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": -270,
+      "x": -197,
       "y": -35
     },
     "_skewX": 0,
@@ -230,6 +230,12 @@
     "_components": [
       {
         "__id__": 6
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
       }
     ],
     "_prefab": null,
@@ -244,7 +250,7 @@
     },
     "_enabled": true,
     "_spriteFrame": {
-      "__uuid__": "ff9a1b43-a672-4370-b59b-8bbb75ea8277"
+      "__uuid__": "c3e6063d-73a1-4bc2-ae65-744c20d039d6"
     },
     "_type": 0,
     "_sizeMode": 1,
@@ -260,6 +266,35 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_atlas": null
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "_defaultClip": null,
+    "_clips": [
+      {
+        "__uuid__": "d215d1bf-a802-4ca9-a0e3-ecd1fd0993cb"
+      },
+      {
+        "__uuid__": "8ee0a06f-eaef-4f90-a080-f940a1f943fc"
+      }
+    ],
+    "playOnLoad": false
+  },
+  {
+    "__type__": "e729akXXqpHMLLYEOEDeLHV",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "_state": -2
   },
   {
     "__type__": "cc.Canvas",
@@ -323,7 +358,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 9
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -334,7 +369,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 8
+      "__id__": 10
     },
     "_enabled": true,
     "mouse": {

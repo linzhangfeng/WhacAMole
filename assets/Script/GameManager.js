@@ -15,19 +15,25 @@ cc.Class({
         mouse:{
             default :null,
             type: cc.Node,
+        },
+        background:{
+            default:null,
+            type:cc.Node,
         }
     },
 
     // use this for initialization
     onLoad: function () {
-        var scale = this.mouse.getScale();
-        var action1 = cc.scaleTo(scale*1.0,scale*1.2);
-        var action2 = cc.scaleTo(scale*1.0,scale*1.0);
-        var action = cc.repeatForever(cc.sequence(action1,action2));
-        console.log("mouse="+this.mouse);
-        console.log("getComponent="+this.mouse.getComponent(cc.Sprite));
-        this.mouse.runAction(action);
+        //var scale = this.mouse.getScale();
+        //var action1 = cc.scaleTo(scale*1.0,scale*1.2);
+        //var action2 = cc.scaleTo(scale*1.0,scale*1.0);
+        //var action = cc.repeatForever(cc.sequence(action1,action2));
+        //console.log("mouse="+this.mouse);
+        //console.log("getComponent="+this.mouse.getComponent(cc.Sprite));
+        //this.mouse.runAction(action);
+
     },
+
 
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
